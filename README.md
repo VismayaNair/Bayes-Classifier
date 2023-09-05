@@ -22,6 +22,7 @@ Output:
 7. Evaluate the classifier's accuracy using the accuracy_score function from scikit-learn.
 
 ## Program:
+```
 import numpy as np
 from sklearn.datasets import load_iris
 from sklearn.model_selection import train_test_split
@@ -41,7 +42,7 @@ clf.fit(X_train,y_train)
 y_pred=clf.predict(X_test)
 accuracy=accuracy_score(y_test,y_pred)
 print("Accuracy:",accuracy)
-
+```
 ## Output:
 ![image](https://github.com/VismayaNair/Bayes-Classifier/assets/93427210/d45f0816-170e-42e7-9085-31318755ee78)
 
